@@ -1,9 +1,0 @@
--> Chỉnh lại giao diện
--> Xây dựng lại database
--> edit chưa hoạt động => ok
--> xóa chưa hoạt động  => ok
--> thêm chưa hoạt động => ok
--> làm trang user và role => ok
--> Phân trang cả tìm kiếm và phân trang bình thường  => phân trang đã bình thường khi là trang bình thường 
--> logout chưa có thông báo => ok
--> chưa có validate trên tất cả các trang
