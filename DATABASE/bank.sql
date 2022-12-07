@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1:3306
--- Thời gian đã tạo: Th12 07, 2022 lúc 08:06 AM
+-- Thời gian đã tạo: Th12 07, 2022 lúc 09:04 AM
 -- Phiên bản máy phục vụ: 5.7.36
 -- Phiên bản PHP: 7.4.26
 
@@ -42,7 +42,7 @@ CREATE TABLE IF NOT EXISTS `accounts` (
   `state` char(10) COLLATE utf8_unicode_ci NOT NULL,
   PRIMARY KEY (`account_number`),
   KEY `state` (`state`)
-) ENGINE=InnoDB AUTO_INCREMENT=1001 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=995 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Đang đổ dữ liệu cho bảng `accounts`
@@ -1219,10 +1219,10 @@ CREATE TABLE IF NOT EXISTS `user` (
 --
 
 INSERT INTO `user` (`userID`, `username`, `phone`, `email`, `password`, `country`) VALUES
-(1, 'admin', '0988888888', 'admin@gmail.com', 'cd372fb85148700fa88095e3492d3f9f5beb43e555e5ff26d95f5a6adc36f8e6', 'VN'),
-(2, 'tuyen', '0988888888', 'vrs@gmail.com', '2a132dbfe4784627b86aa3807cd19cfeff487aab3dd7a60d0ab119a72e736936', 'VN'),
-(49, 'vrs tuyen', '0987777777', 'vrstuyen@gmail.com', '5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5', 'Viá»‡t Nam'),
-(50, 'admin', '0987777777', 'admin@localhost.com', '173af653133d964edfc16cafe0aba33c8f500a07f3ba3f81943916910c257705', 'VN');
+(1, 'admin', '0988888888', 'admin@gmail.com', 'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3', 'VN'),
+(2, 'tuyen', '0988888888', 'vrs@gmail.com', 'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3', 'VN'),
+(49, 'vrs tuyen', '0987777777', 'vrstuyen@gmail.com', 'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3', 'VN'),
+(50, 'admin', '0987777777', 'admin@localhost.com', 'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3', 'VN');
 
 -- --------------------------------------------------------
 
