@@ -1,0 +1,69 @@
+.navigation {
+  padding: 2rem 0;
+  width: 300px;
+  height: 100vh;
+  background: $melanie;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 4px;
+
+  &-list {
+    width: 100%;
+    padding: 3rem 0 0 16px;
+
+    &-item {
+      display: block;
+
+      font-size: 1.8rem;
+      position: relative;
+      border-radius: 24px;
+
+      &:hover {
+        cursor: pointer;
+        background-color: $background-color;
+      }
+
+      &-link {
+        padding: 12px 8px;
+        text-decoration: none;
+        display: block;
+        text-transform: capitalize;
+        color: $fourth-color;
+
+      }
+    }
+  }
+
+  &-search {
+    margin-top: 2rem;
+    width: 100%;
+    padding: 0 8px;
+
+    &-form {
+      display: flex;
+    }
+
+    &-input {
+      border: none;
+      outline: none;
+      padding: 8px 12px;
+      border-radius: 16px;
+      font-size: 1.4rem;
+      flex: 1;
+    }
+
+    &-button {
+      border: none;
+      padding: 4px 8px;
+      border-radius: 12px;
+      background: $fourth-color;
+      color: white;
+      margin-left: 4px;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

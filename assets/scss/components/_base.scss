@@ -1,0 +1,16 @@
+html {
+  font: {
+    size: 62.5%;
+    family: Mulish;
+  }
+
+}
+
+body {
+  box-sizing: border-box;
+  color: $text-color;
+}
+
+* {
+  box-sizing: inherit;
+}

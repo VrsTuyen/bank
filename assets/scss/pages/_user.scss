@@ -1,0 +1,66 @@
+.user {
+  display: flex;
+
+  &-header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 16px;
+
+    &-button {
+      text-decoration: none;
+      font-size: 1.8rem;
+      border: 1px solid $french-gray;
+      padding: 8px 16px;
+      background-color: $almond;
+      color: #000;
+      border-radius: 4px;
+
+      &:hover {
+        cursor: pointer;
+        filter: brightness(1.1);
+        transition: all .2s;
+      }
+    }
+  }
+
+  &-table {
+    display: block;
+    width: 100%;
+    font-size: 1.6rem;
+    text-align: center;
+    height: 500px;
+    overflow: auto;
+
+    thead {
+      width: 100%;
+      display: block;
+      padding: 16px 0;
+      background-color: $french-gray;
+    }
+
+    tbody {
+      width: 100%;
+      display: block;
+      text-align: center;
+
+      tr {
+        &:hover {
+          background-color: $almond;
+        }
+      }
+    }
+
+    tr {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+
+      th,
+      td {
+        text-align: center;
+        width: 100%;
+        padding: 8px 0;
+      }
+    }
+  }
+}
